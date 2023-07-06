@@ -1,0 +1,67 @@
+*
+{
+    box-sizing: border-box;    
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.out
+{   
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    background-color: rgb(34, 32, 32);
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+}
+.display
+{
+    width: 380px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 25px;
+    font-size: 50px;
+    text-align: right;
+    pointer-events: none;
+}
+.buttons
+{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.btn
+{   
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    flex: 0 0 30%;
+    margin: 6px;
+    cursor: pointer;
+}
+.btn-org
+{
+    background-color: orange;
+}
+.btn-primary
+{
+    background-color: whitesmoke;
+}
+.btn-clear
+{
+    background-color: red;
+}
+.btn-equal
+{
+    background-color: green;
+}
