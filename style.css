@@ -11,7 +11,7 @@ body
 .out
 {   
     width: 400px;
-    height: 600px;
+    height: 550px;
     padding: 10px;
     background-color: rgb(34, 32, 32);
     border-radius: 15px;
@@ -20,7 +20,7 @@ body
 .display
 {
     width: 380px;
-    height: 150px;
+    height: 100px;
     color: white;
     background-color: black;
     border: none;
